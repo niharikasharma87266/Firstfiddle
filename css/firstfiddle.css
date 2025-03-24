@@ -1,0 +1,65 @@
+.img123{
+    width: 80%;
+}
+.a{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+
+.b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+@media (max-width:768px) {
+    .img123{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.moblogo{
+    display: none;
+}
+
+@media(max-width:768px){
+    .weblogo{
+        display: none;
+    }
+    .moblogo{
+        display: block;
+    }
+    .navbar{
+        background: yellow !important;
+    }
+}
+
+.c{
+    background-image: url(https://pn-paul.netlify.app/image/img%20background.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.d{
+    list-style: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+}
+
+.e{
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
